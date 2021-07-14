@@ -20,7 +20,7 @@ public class Prog1 {
     	String myvalue = value.toString();
     	String[] tokens = myvalue.split(",");
     	
-    	if (tokens[3].equals("TRUE")) {	
+    	if (tokens[3].equals("YES")) {	
     		output.collect(new Text("Total number of employees eligible for pay raise: "), one);
     	}
     }
